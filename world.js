@@ -81268,7 +81268,7 @@ function ctrlToggle (ev) { erase = !ev.ctrlKey }
 
 // Our texture builder
 var materialEngine = require('../')({
-  texturePath: game.texturePath,
+  texturePath: './textures/',
   THREE: game.THREE
 });
 
